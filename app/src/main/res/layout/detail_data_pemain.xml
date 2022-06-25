@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_gravity="center_horizontal">
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/image_pemain"
@@ -13,113 +13,114 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:src="@drawable/image1" />
+
     <TextView
         android:id="@+id/textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:drawablePadding="5dp"
+        android:gravity="center_horizontal"
         android:padding="5dp"
         android:text="Data Pribadi"
         android:textAlignment="center"
-        android:textSize="20sp"
-        android:gravity="center_horizontal" />
+        android:textSize="20sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
-        android:orientation="horizontal"/>
+        android:orientation="horizontal" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nama:"
-        />
+        android:text="Nama:" />
+
     <TextView
         android:id="@+id/txt_namapemain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#0C0C0C"
-        android:text="aaaaaa"/>
+        android:text="isco"
+        android:textColor="#0C0C0C" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
-        android:orientation="horizontal"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tempat Tanggal Lahir:"
-        />
+        android:text="Tempat Tanggal Lahir:" />
+
     <TextView
         android:id="@+id/txt_tempatlahir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#0C0C0C"
-        android:text="xxxxxx"/>
+        android:text="sepanyol"
+        android:textColor="#0C0C0C" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
-        android:orientation="horizontal"/>
+        android:orientation="horizontal" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tanggal Lahir :"
-        />
+        android:text="Tanggal Lahir :" />
+
     <TextView
         android:id="@+id/txt_tanggallahir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#0C0C0C"
-        android:text="xxxxxx"/>
+        android:text="29 Mei 19980"
+        android:textColor="#0C0C0C" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
-        android:orientation="horizontal"/>
+        android:orientation="horizontal" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Posisi:"
-        />
+        android:text="Posisi:" />
+
     <TextView
         android:id="@+id/txtposisi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#0C0C0C"
-        android:text="aaaaaa"/>
+        android:text="penyerang"
+        android:textColor="#0C0C0C" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
-        android:orientation="horizontal"/>
+        android:orientation="horizontal" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tinggi Badan:"
-        />
+        android:text="Tinggi Badan:" />
+
     <TextView
         android:id="@+id/txttinggibadan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#0C0C0C"
-        android:text="CM"/>
+        android:text="1,90CM"
+        android:textColor="#0C0C0C" />
 
     <Button
         android:id="@+id/btnclose"
-        android:text="Close"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
-        android:layout_marginEnd="5dp"/>
+        android:layout_marginEnd="5dp"
+        android:text="Close" />
 
 
 </LinearLayout>
